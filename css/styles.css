@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #111;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Georgia, TimesNewRoman, "Times New Roman", serif;
+  margin: 0;
+}
+
+h2, h3, h4 {
+  margin: 10px;
+}
+
+hr {
+  margin: 15px 0px;
+}
+
+/* Header */
+header {
+  color: #CCC;
+  text-align: center;
+  background-color: #113;
+  margin: 0px;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+header ul {
+  text-align: center;
+}
+
+header li {
+  display: inline;
+  padding: 20px;
+}
+
+/* Education */
+
+.education {
+  background-color: #111;
+  border: solid 2px #CCC;
+  border-radius: 15px;
+  color: #CCC;
+  float: left;
+  height: 900px;
+  margin: 15px;
+  padding: 15px;
+  text-align: center;
+  width: 25%;
+}
+
+/* Qualifications */
+
+.qualifications {
+  color: #CCC;
+  /* display: none; */
+  margin: 15px auto;
+  text-align: center;
+}
+
+/* Work History */
+
+.workhistory {
+  background-color: #111;
+  border: solid 2px #CCC;
+  border-radius: 15px;
+  color: #CCC;
+  float: right;
+  height: 900px;
+  margin: 15px;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  width: 25%;
+}
