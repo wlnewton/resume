@@ -7,8 +7,8 @@ body {
   background-color: #111;
   background-image: radial-gradient(
     circle at top left,
-    #37C,
-    #000
+    #16A,
+    #147
     );
 }
 
@@ -22,17 +22,18 @@ li, p {
   font-size: 15px;
 }
 
+li {
+  margin: 10px 0px;
+}
+
 h2, h3, h4 {
   margin: 10px;
 }
 
 hr {
-  margin: 10px 0px;
+  margin: 15px 0px;
 }
 
-ul {
-  /* list-style: none; */
-}
 /* Header */
 header {
   color: #CCC;
@@ -49,17 +50,12 @@ header .container {
   width: 950px;
 }
 
-main li {
-  margin: 10px 0px 0px 35px;
-}
-
 h1 {
   font-size: 40px;
-  margin: 10px;
+  margin-bottom: 15px;
 }
 
 header ul {
-  margin: 10px 0px 0px 10px;
   text-align: left;
   text-decoration: none;
 }
@@ -76,23 +72,43 @@ main .row {
   width: 970px;
 }
 
-.left {
+/* Education */
+
+.education {
   background-color: #00000099;
   border-radius: 10px;
   color: #CCC;
   float: left;
   height: 1300px;
   padding: 10px;
-  text-align: left;
-  width: 700px;
+  text-align: center;
+  width: 200px;
 }
 
-.right {
+/* Qualifications */
+
+.qualifications {
+  background-color: #00000099;
   border-radius: 10px;
   color: #CCC;
+  float: left;
   height: 1300px;
   margin: 0px 10px;
   padding: 10px;
   text-align: center;
   width: 490px;
+}
+
+/* Work History */
+
+.workhistory {
+  background-color: #00000099;
+  border-radius: 10px;
+  color: #CCC;
+  float: left;
+  height: 1300px;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  width: 200px;
 }
