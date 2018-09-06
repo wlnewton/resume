@@ -84,15 +84,5 @@ main .row {
   height: 1300px;
   padding: 10px;
   text-align: left;
-  width: 700px;
-}
-
-.right {
-  border-radius: 10px;
-  color: #CCC;
-  height: 1300px;
-  margin: 0px 10px;
-  padding: 10px;
-  text-align: center;
-  width: 490px;
+  width: 950px;
 }
