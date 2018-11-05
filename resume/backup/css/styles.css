@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #111;
+  background-image: radial-gradient(
+    circle at top left,
+    #16A,
+    #147
+    );
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+}
+
+li, p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+}
+
+li {
+  margin: 10px 0px;
+}
+
+h2, h3, h4 {
+  margin: 10px;
+}
+
+hr {
+  margin: 15px 0px;
+}
+
+/* Header */
+header {
+  color: #CCC;
+  text-align: left;
+  margin: 0px;
+  padding: 0px;
+}
+
+header .container {
+  background-color: #00000099;
+  border-radius: 10px;
+  margin: 10px auto;
+  padding: 10px;
+  width: 950px;
+}
+
+h1 {
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+header ul {
+  text-align: left;
+  text-decoration: none;
+}
+
+header li {
+  display: inline-block;
+  padding: 0px 30px 0px 0px;
+}
+
+main .row {
+  margin: 0px auto;
+  overflow: auto;
+  padding: 0px;
+  width: 970px;
+}
+
+/* Education */
+
+.education {
+  background-color: #00000099;
+  border-radius: 10px;
+  color: #CCC;
+  float: left;
+  height: 1300px;
+  padding: 10px;
+  text-align: center;
+  width: 200px;
+}
+
+/* Qualifications */
+
+.qualifications {
+  background-color: #00000099;
+  border-radius: 10px;
+  color: #CCC;
+  float: left;
+  height: 1300px;
+  margin: 0px 10px;
+  padding: 10px;
+  text-align: center;
+  width: 490px;
+}
+
+/* Work History */
+
+.workhistory {
+  background-color: #00000099;
+  border-radius: 10px;
+  color: #CCC;
+  float: left;
+  height: 1300px;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  width: 200px;
+}
